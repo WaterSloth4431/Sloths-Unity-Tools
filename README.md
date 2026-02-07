@@ -60,3 +60,15 @@ Select one or more GameObjects in the Scene
 Open Sloth’s Collision Tool from the Tools menu
 
 Assign (or auto-detect) the Collisions prefab, choose a collision type from the dropdown, then click Apply to Selected Objects
+
+Sloth’s LOD Manager
+
+An Editor tool that batch-creates simple LODGroups for selected objects under a master parent, and can also scan prefab folders to auto-set LOD cull transition ratios based on mesh size (with an optional max override).
+
+How to Use
+
+Select one or more GameObjects in the Scene
+
+Open Sloth’s Auto LOD Setup Tools from the Tools menu
+
+Use Create LOD Group to generate LODGroup parents, or browse to a prefab folder and click Apply Cull Ratio to update LOD transitions across prefabs
