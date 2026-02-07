@@ -24,3 +24,15 @@ Select two or more materials in the Project window
 Open Sloth’s Material Merger from the Tools menu
 
 Click Get Selected Materials to validate them, then Merge Materials to combine and replace all references
+
+Sloth’s Material Slot Editor
+
+An Editor tool that exposes and allows direct editing of individual material slots on a selected GameObject and all its child renderers, bypassing Unity’s limited default material UI.
+
+How to Use
+
+Select a GameObject in the Scene
+
+Open Sloth’s Material Slot Editor from the Tools menu
+
+Assign or swap materials per slot for the object and its children in the custom UI
