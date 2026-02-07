@@ -11,3 +11,15 @@ Select one or more textures in the Project window
 Open Sloth’s Texture Setup from the Tools menu
 
 Choose a compression mode and quality, then click Apply
+
+Sloth’s Material Merger
+
+An Editor tool that detects identical materials, reports any differences, and merges them into a single shared material while automatically updating all affected renderers in the scene.
+
+How to Use
+
+Select two or more materials in the Project window
+
+Open Sloth’s Material Merger from the Tools menu
+
+Click Get Selected Materials to validate them, then Merge Materials to combine and replace all references
