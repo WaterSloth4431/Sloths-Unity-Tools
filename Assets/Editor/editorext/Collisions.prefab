@@ -1,0 +1,2195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &552963435426710413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4735278728665563271}
+  - component: {fileID: 2699497861716057032}
+  m_Layer: 0
+  m_Name: pavement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4735278728665563271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552963435426710413}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2699497861716057032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552963435426710413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/pavement
+    value:
+      rid: 752827044527079444
+    customValue:
+      rid: 752827044527079445
+    index: 16
+    lastHeadObject: Road/pavement
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079444
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.01
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 100
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079445
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.01
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 100
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &631096705814472389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2151353436965696078}
+  - component: {fileID: 7828695678199748066}
+  m_Layer: 0
+  m_Name: road_icy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2151353436965696078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631096705814472389}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7828695678199748066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631096705814472389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/road_icy
+    value:
+      rid: 752827044527079450
+    customValue:
+      rid: 752827044527079451
+    index: 19
+    lastHeadObject: Road/road_icy
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079450
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 2
+        rollFriction: 0.025
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079451
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 2
+        rollFriction: 0.025
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &1447111531990521301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3430746216878402218}
+  - component: {fileID: 6829433522755282858}
+  m_Layer: 0
+  m_Name: brick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3430746216878402218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447111531990521301}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6829433522755282858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447111531990521301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/brick
+    value:
+      rid: 752827041217773644
+    customValue:
+      rid: 752827041217773645
+    index: 3
+    lastHeadObject: Road/brick
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827041217773644
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.003
+        bumpMax: 0
+        bumpScale: 15
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827041217773645
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.003
+        bumpMax: 0
+        bumpScale: 15
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &1894328163554714363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559178174907008443}
+  - component: {fileID: 4815734091984862143}
+  m_Layer: 0
+  m_Name: liquid_water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1559178174907008443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894328163554714363}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4815734091984862143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894328163554714363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/liquid_water
+    value:
+      rid: 752827044527079438
+    customValue:
+      rid: 752827044527079439
+    index: 13
+    lastHeadObject: Road/liquid_water
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079438
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.9
+        rollFriction: 0.02
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079439
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.9
+        rollFriction: 0.02
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &2919870539631001929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5105035910503796762}
+  - component: {fileID: 7530300652779608859}
+  m_Layer: 0
+  m_Name: cobbles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5105035910503796762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919870539631001929}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7530300652779608859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919870539631001929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/cobbles
+    value:
+      rid: 752827041217773646
+    customValue:
+      rid: 752827041217773647
+    index: 4
+    lastHeadObject: Road/cobbles
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827041217773646
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.0024
+        bumpMax: 0
+        bumpScale: 6
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827041217773647
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.0024
+        bumpMax: 0
+        bumpScale: 6
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &3537268381608742484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6322091903146988597}
+  - component: {fileID: 780533785025334391}
+  m_Layer: 0
+  m_Name: snow_asphalt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6322091903146988597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3537268381608742484}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &780533785025334391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3537268381608742484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/snow_asphalt
+    value:
+      rid: 752827044527079456
+    customValue:
+      rid: 752827044527079457
+    index: 22
+    lastHeadObject: Road/snow_asphalt
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079456
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.73
+        rollFriction: 0.025
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079457
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.73
+        rollFriction: 0.025
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &3675968555742251484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912882606919859500}
+  - component: {fileID: 6770500595761696544}
+  m_Layer: 0
+  m_Name: concrete
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912882606919859500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675968555742251484}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6770500595761696544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675968555742251484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/concrete
+    value:
+      rid: 752827044527079424
+    customValue:
+      rid: 752827044527079425
+    index: 6
+    lastHeadObject: Road/concrete
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079424
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.003
+        bumpMax: 0
+        bumpScale: 15
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079425
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.003
+        bumpMax: 0
+        bumpScale: 15
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &3705463780106184380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2446326199231262526}
+  - component: {fileID: 6757893394769865471}
+  m_Layer: 0
+  m_Name: Collisions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2446326199231262526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3705463780106184380}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 724.574, y: 149.55783, z: 1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4602298001029611571}
+  - {fileID: 6814489946493161212}
+  - {fileID: 3430746216878402218}
+  - {fileID: 5105035910503796762}
+  - {fileID: 7270776505181415921}
+  - {fileID: 912882606919859500}
+  - {fileID: 9088790016131929590}
+  - {fileID: 7738988639161681387}
+  - {fileID: 5466484921543851582}
+  - {fileID: 5092013303624264033}
+  - {fileID: 4655432556917828431}
+  - {fileID: 6830644170450278081}
+  - {fileID: 1559178174907008443}
+  - {fileID: 5872798730278266328}
+  - {fileID: 6864608414150809712}
+  - {fileID: 4735278728665563271}
+  - {fileID: 1840944658120072395}
+  - {fileID: 1467801515314127730}
+  - {fileID: 2151353436965696078}
+  - {fileID: 8284079590209595782}
+  - {fileID: 163049264700975862}
+  - {fileID: 6322091903146988597}
+  - {fileID: 733079949658970770}
+  - {fileID: 7354912299092515165}
+  - {fileID: 1700461638450424765}
+  - {fileID: 6986773975181349019}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6757893394769865471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3705463780106184380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: SpawnPoint
+    param: SpawnPoint
+    value:
+      rid: -2
+    customValue:
+      rid: -2
+    index: 0
+    lastHeadObject: SpawnPoint
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!1 &4361565510547086752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733079949658970770}
+  - component: {fileID: 20059950240462302}
+  m_Layer: 0
+  m_Name: snow_cobbles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733079949658970770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4361565510547086752}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &20059950240462302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4361565510547086752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/snow_cobbles
+    value:
+      rid: 752827044527079458
+    customValue:
+      rid: 752827044527079459
+    index: 23
+    lastHeadObject: Road/snow_cobbles
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079458
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.73
+        rollFriction: 0.025
+        bumpMin: -0.005
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079459
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.73
+        rollFriction: 0.025
+        bumpMin: -0.005
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &4475658370870048224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5092013303624264033}
+  - component: {fileID: 2417753034926124343}
+  m_Layer: 0
+  m_Name: gravel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5092013303624264033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475658370870048224}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2417753034926124343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475658370870048224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/gravel
+    value:
+      rid: 752827044527079432
+    customValue:
+      rid: 752827044527079433
+    index: 10
+    lastHeadObject: Road/gravel
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079432
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.025
+        bumpMin: -0.007
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079433
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.025
+        bumpMin: -0.007
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &4814580386045895846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5872798730278266328}
+  - component: {fileID: 3429387705156583858}
+  m_Layer: 0
+  m_Name: metal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5872798730278266328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4814580386045895846}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3429387705156583858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4814580386045895846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/metal
+    value:
+      rid: 752827044527079440
+    customValue:
+      rid: 752827044527079441
+    index: 14
+    lastHeadObject: Road/metal
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079440
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.73
+        rollFriction: 0.03
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079441
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.73
+        rollFriction: 0.03
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &4927908320170690062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4655432556917828431}
+  - component: {fileID: 7586498785769473122}
+  m_Layer: 0
+  m_Name: ice_snowy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4655432556917828431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4927908320170690062}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7586498785769473122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4927908320170690062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/ice_snowy
+    value:
+      rid: 752827044527079434
+    customValue:
+      rid: 752827044527079435
+    index: 11
+    lastHeadObject: Road/ice_snowy
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079434
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 2
+        rollFriction: 0.025
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079435
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 2
+        rollFriction: 0.025
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &4945881407547766538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9088790016131929590}
+  - component: {fileID: 2572657753167099459}
+  m_Layer: 0
+  m_Name: dirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9088790016131929590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4945881407547766538}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2572657753167099459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4945881407547766538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/dirt
+    value:
+      rid: 752827044527079426
+    customValue:
+      rid: 752827044527079427
+    index: 7
+    lastHeadObject: Road/dirt
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079426
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.1
+        bumpMin: -0.01
+        bumpMax: 0.01
+        bumpScale: 26
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079427
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.1
+        bumpMin: -0.01
+        bumpMax: 0.01
+        bumpScale: 26
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &4999442060888799136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6830644170450278081}
+  - component: {fileID: 1103603039896370723}
+  m_Layer: 0
+  m_Name: kerb_racetrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6830644170450278081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4999442060888799136}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1103603039896370723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4999442060888799136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/kerb_racetrack
+    value:
+      rid: 752827044527079436
+    customValue:
+      rid: 752827044527079437
+    index: 12
+    lastHeadObject: Road/kerb_racetrack
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079436
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.007
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079437
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.007
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &5092263600907081433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1467801515314127730}
+  - component: {fileID: 969697589489303736}
+  m_Layer: 0
+  m_Name: plastic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1467801515314127730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5092263600907081433}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &969697589489303736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5092263600907081433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/plastic
+    value:
+      rid: 752827044527079448
+    customValue:
+      rid: 752827044527079449
+    index: 18
+    lastHeadObject: Road/plastic
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079448
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.01
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079449
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.01
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &5290871186577655354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7354912299092515165}
+  - component: {fileID: 3699697370406701358}
+  m_Layer: 0
+  m_Name: snow_gravel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7354912299092515165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290871186577655354}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3699697370406701358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290871186577655354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/snow_gravel
+    value:
+      rid: 752827044527079460
+    customValue:
+      rid: 752827044527079461
+    index: 24
+    lastHeadObject: Road/snow_gravel
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079460
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.9
+        rollFriction: 0.04
+        bumpMin: -0.007
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079461
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.9
+        rollFriction: 0.04
+        bumpMin: -0.007
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &6231372837197966820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1840944658120072395}
+  - component: {fileID: 3088518796132420361}
+  m_Layer: 0
+  m_Name: paving_slab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1840944658120072395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6231372837197966820}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3088518796132420361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6231372837197966820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/paving_slab
+    value:
+      rid: 752827044527079446
+    customValue:
+      rid: 752827044527079447
+    index: 17
+    lastHeadObject: Road/paving_slab
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079446
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079447
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &6303299182212628900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6986773975181349019}
+  - component: {fileID: 3299255354628107583}
+  m_Layer: 0
+  m_Name: wood_plank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6986773975181349019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6303299182212628900}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3299255354628107583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6303299182212628900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/wood_plank
+    value:
+      rid: 752827044527079464
+    customValue:
+      rid: 752827044527079465
+    index: 26
+    lastHeadObject: Road/wood_plank
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079464
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.85
+        rollFriction: 0.01
+        bumpMin: -0.005
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079465
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.85
+        rollFriction: 0.01
+        bumpMin: -0.005
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &6969575298072093752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4602298001029611571}
+  - component: {fileID: 8862321906396818642}
+  m_Layer: 0
+  m_Name: default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4602298001029611571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6969575298072093752}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8862321906396818642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6969575298072093752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/default
+    value:
+      rid: 752827041217773640
+    customValue:
+      rid: 752827041217773641
+    index: 1
+    lastHeadObject: Road/default
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827041217773640
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.01
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 100
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827041217773641
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.01
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 100
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &7101615233692450415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7738988639161681387}
+  - component: {fileID: 293836990999655172}
+  m_Layer: 0
+  m_Name: earth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7738988639161681387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101615233692450415}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &293836990999655172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101615233692450415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/earth
+    value:
+      rid: 752827044527079428
+    customValue:
+      rid: 752827044527079429
+    index: 8
+    lastHeadObject: Road/earth
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079428
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.06
+        bumpMin: -0.03
+        bumpMax: 0
+        bumpScale: 25
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079429
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.06
+        bumpMin: -0.03
+        bumpMax: 0
+        bumpScale: 25
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &7390533274789808319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5466484921543851582}
+  - component: {fileID: 3118122183934998204}
+  m_Layer: 0
+  m_Name: grass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5466484921543851582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7390533274789808319}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3118122183934998204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7390533274789808319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/grass
+    value:
+      rid: 752827044527079430
+    customValue:
+      rid: 752827044527079431
+    index: 9
+    lastHeadObject: Road/grass
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079430
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0
+        bumpMin: 0.05
+        bumpMax: 0.04
+        bumpScale: 25
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079431
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0
+        bumpMin: 0.05
+        bumpMax: 0.04
+        bumpScale: 25
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &7480862463727186406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7270776505181415921}
+  - component: {fileID: 9061911264201273879}
+  m_Layer: 0
+  m_Name: cobbles_big
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7270776505181415921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7480862463727186406}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9061911264201273879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7480862463727186406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/cobbles_big
+    value:
+      rid: 752827041217773648
+    customValue:
+      rid: 752827041217773649
+    index: 5
+    lastHeadObject: Road/cobbles_big
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827041217773648
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.003
+        bumpMax: 0
+        bumpScale: 9
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827041217773649
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.015
+        bumpMin: -0.003
+        bumpMax: 0
+        bumpScale: 9
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &7591612427226664081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6864608414150809712}
+  - component: {fileID: 4675576643153562982}
+  m_Layer: 0
+  m_Name: metal_grille
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6864608414150809712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7591612427226664081}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4675576643153562982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7591612427226664081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/metal_grille
+    value:
+      rid: 752827044527079442
+    customValue:
+      rid: 752827044527079443
+    index: 15
+    lastHeadObject: Road/metal_grille
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079442
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.73
+        rollFriction: 0.03
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079443
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.73
+        rollFriction: 0.03
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &7638700273955980338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 163049264700975862}
+  - component: {fileID: 5039652239282429786}
+  m_Layer: 0
+  m_Name: snow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &163049264700975862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638700273955980338}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5039652239282429786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638700273955980338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/snow
+    value:
+      rid: 752827044527079454
+    customValue:
+      rid: 752827044527079455
+    index: 21
+    lastHeadObject: Road/snow
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079454
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 2
+        rollFriction: 0.1
+        bumpMin: -0.01
+        bumpMax: -0.01
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079455
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 2
+        rollFriction: 0.1
+        bumpMin: -0.01
+        bumpMax: -0.01
+        bumpScale: 30
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &8162921130058489414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6814489946493161212}
+  - component: {fileID: 6909580225451995023}
+  m_Layer: 0
+  m_Name: asphalt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6814489946493161212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8162921130058489414}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6909580225451995023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8162921130058489414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/asphalt
+    value:
+      rid: 752827041217773642
+    customValue:
+      rid: 752827041217773643
+    index: 2
+    lastHeadObject: Road/asphalt
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827041217773642
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.01
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 100
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827041217773643
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.01
+        bumpMin: 0
+        bumpMax: 0
+        bumpScale: 100
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &8853849674838903337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700461638450424765}
+  - component: {fileID: 5319497049895061299}
+  m_Layer: 0
+  m_Name: wood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700461638450424765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853849674838903337}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5319497049895061299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853849674838903337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/wood
+    value:
+      rid: 752827044527079462
+    customValue:
+      rid: 752827044527079463
+    index: 25
+    lastHeadObject: Road/wood
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079462
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.85
+        rollFriction: 0.01
+        bumpMin: -0.005
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079463
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 0.85
+        rollFriction: 0.01
+        bumpMin: -0.005
+        bumpMax: 0
+        bumpScale: 12
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+--- !u!1 &9043493120884230504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8284079590209595782}
+  - component: {fileID: 7778828109834503148}
+  m_Layer: 0
+  m_Name: sand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8284079590209595782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9043493120884230504}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -724.574, y: -149.55783, z: -1007.74396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2446326199231262526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7778828109834503148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9043493120884230504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0f3ebd2d0ade54387ba2db51cbc992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerData:
+    head: Road
+    param: Road/sand
+    value:
+      rid: 752827044527079452
+    customValue:
+      rid: 752827044527079453
+    index: 20
+    lastHeadObject: Road/sand
+    templateName: 
+    templateIndex: 0
+    templateConfig: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 752827044527079452
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.13
+        bumpMin: 0.06
+        bumpMax: 0.05
+        bumpScale: 25
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
+    - rid: 752827044527079453
+      type: {class: PhysicMaterialProperties, ns: , asm: Assembly-CSharp}
+      data:
+        friction: 1
+        rollFriction: 0.13
+        bumpMin: 0.06
+        bumpMax: 0.05
+        bumpScale: 25
+        bump2Min: 0
+        bump2Max: 0
+        bump2Scale: 0
