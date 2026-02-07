@@ -1,6 +1,18 @@
 # Sloths-Unity-Tools
 A collection of unity tools for carx drift racing online 
 
+Sloth’s Auto Material Setup (HDRP)
+
+An Editor tool for HDRP/Lit materials that batch-converts selected materials to Specular Color or Subsurface Scattering, auto-fills missing specular/normal maps by filename suffix matching, and can also scan the project to mark normal map textures correctly.
+
+How to Use
+
+Select one or more HDRP/Lit materials in the Project window
+
+Open Sloth’s Auto Material Setup from the Tools menu
+
+Click Setup Materials (Specular Color) or Setup Materials (Subsurface Scattering), and optionally run Setup Normal Map Textures to flag _nml/_nm/_normal textures as Normal Maps
+
 Sloth’s Texture Setup
 
 An Editor tool that batch-applies Crunch compression, automatically scales max texture size based on resolution, and configures normal maps using filename detection.
