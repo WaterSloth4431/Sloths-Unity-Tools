@@ -5,6 +5,19 @@ A collection of Unity **Editor tools** designed to streamline workflows for **Ca
 Find it in: **Window → Sloth’s Tools**
 
 Website: https://watersloth.carrd.co/
+
+---
+
+## 📦 Installation (UnityPackage)
+
+1. Download the latest `.unitypackage` from the **Releases** section of this repository  
+2. Open your Unity project  
+3. Double-click the `.unitypackage` file or drag it into the Unity Editor  
+4. Click **Import** when prompted  
+5. Once imported, the tools will be available under **Window → Sloth’s Tools**
+
+> 💡 These are **Editor-only tools** and will not be included in builds.
+
 ---
 
 ## 🧰 Tools Included
